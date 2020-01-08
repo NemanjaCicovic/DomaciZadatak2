@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FonIT</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="css/header.css">
+
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0">
+
+    <script src="scripts/js/jquery-2.11.min.js"></script>
+    <script src="scripts/js/jquery.flexslider-min.js"></script>
+    <script src="scripts/js/lightbox.js"></script>
+    <script src="scripts/js/main.js"></script>
+
+</head>
+
+<body class="home">
+    <header class="header">
+        <h1 class="logo"><a href="index.html">FonIT</a></h1>
+        <ul class="main-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="o-nama.html">About Us</a></li>
+            <li><a href="ponuda.html">Works</a></li>
+            <li><a href="kontakt.html">Contact</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="flexslider">
+            <ul class="slides">
+                <li>
+                    <img src="./img/slider-image-1.jpg" />
+                </li>
+                <li>
+                    <img src="./img/slider-image-2.jpg" />
+                </li>
+                <li>
+                    <img src="./img/slider-image-3.jpg" />
+                </li>
+            </ul>
+        </div>
+            <div class="col-xs-12">
+                <h1 style="text-align: center;">Our important works</h1>
+            </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs">
+                    <img src="./img/slika-1.png" alt="Krofne">
+                    <h3 style="text-align: center;">Lonond apk</h3>
+                </div>
+                <div class="col-xs">
+                    <img src="./img/slika-2.png" alt="Krofne">
+                    <h3 style="text-align: center;">Las Vegas casino apk</h3>
+                </div>
+                <div class="col-xs" style="justify-items: center;">
+                    <img src="./img/slika-3.png" alt="Krofne">
+                    <h3 style="text-align: center;">SnapFON apk</h3>
+                </div>
+
+            </div>
+        </div>
+
+
+    </main>
+    <footer>
+        <div class="container">
+            <div class="col-xs">
+                <button class="btn btn-info" onclick="document.getElementById('date').innerHTML=Date()">Pogledajte
+                    trenutno vreme</button>
+                <p id="date"></p>
+            </div>
+            <div class="row" style="justify-content: center; color: red;">
+                Copyright: Beograd 2019
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
